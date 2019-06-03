@@ -18,6 +18,7 @@ public abstract class BaseFragment extends Fragment implements BaseView{
     public BaseFragment() {
         // Required empty public constructor
         //真的再次修改
+        //提交到git中
     }
 
 
