@@ -12,7 +12,7 @@ import com.example.pingminmvp.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class BaseFragment extends Fragment {
+public abstract class BaseFragment extends Fragment implements BaseView{
 
 
     public BaseFragment() {
