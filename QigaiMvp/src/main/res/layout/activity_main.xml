@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击按钮获取网络数据"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:onClick="getData"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="获取数据[成功]"
+        app:layout_constraintBottom_toTopOf="@id/btn_failure" />
+
+    <Button
+        android:onClick="getDataForFailure"
+        android:id="@+id/btn_failure"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="获取数据"
+        app:layout_constraintBottom_toTopOf="@id/btn_error" />
+
+    <Button
+        android:onClick="getDataForError"
+        android:id="@+id/btn_error"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="获取数据"
+        app:layout_constraintBottom_toBottomOf="parent" />
+</android.support.constraint.ConstraintLayout>
