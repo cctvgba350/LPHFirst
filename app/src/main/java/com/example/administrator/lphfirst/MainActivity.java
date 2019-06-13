@@ -12,7 +12,6 @@ public class MainActivity extends AppCompatActivity {
 //        ggd
         //text
         //ssd
-        //++1
         //++2
     }
 }
